@@ -46,26 +46,77 @@ nav {
 button {
   width: 90px;
   height: 35px;
+  background-color: white;;
   border: none;
-  background-color: rgba();
   cursor: pointer;
 }
 
+button {
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #4CAF50;
+}
+
 #cta {
-  padding-top: 8px
+  padding-top: 8px;
 }
 
 #cta1 {
-  padding-right: 10px
+  padding-top: 8px;
+  padding-left: 10px;
 }
 
 .full_image {
   max-width: 100%;
   max-height: 100%;
   display: block; 
+  padding-bottom: 50px;
 }
 
 .full_image img {
   width: 100%;
-  height: 100%;
+  height: 100%
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content h1, .content p, .content1 h1, .content1 p {
+  color: #00390F;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: "Montesterrat", sans-serif;
+}
+
+.content, .content1 {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.content p, .content1 p {
+  color: #00390F;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: "Montesterrat", sans-serif;
+  font-size: 14px;
+}
+
+.content1 {
+ padding-bottom: 100px;
 }
