@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
-  box-sizing: border-box;
+  box-sizing:content-box;
   margin: 0;
   padding: 0;
 }
@@ -77,6 +77,11 @@ button:hover {
   padding-left: 10px;
 }
 
+.body {
+  max-width:max-content;
+  margin: 0 auto;
+}
+
 .full_image {
   max-width: 100%;
   max-height: 100%;
@@ -95,18 +100,18 @@ button:hover {
   margin-right: auto;
 }
 
-.content h1, .content p, .content1 h1, .content1 p {
+.content, .content1 {
+  float: left;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.content h1, .content1 h1 {
   color: #00390F;
   margin: 20px 0px;
   text-align: center;
   font-family: "Montesterrat", sans-serif;
-}
-
-.content, .content1 {
-  float: left;
-  width: 31.33%;
-  margin: 1%;
-  padding: 1%;
 }
 
 .content p, .content1 p {
@@ -118,5 +123,19 @@ button:hover {
 }
 
 .content1 {
- padding-bottom: 100px;
+ padding-bottom: 60px;
+}
+
+.gallery { 
+  width: 50%;
+  float: left;
+}
+
+#content2 {
+  box-sizing:border-box;
+  display: inline block; 
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-bottom: 100px;
 }
