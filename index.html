@@ -4,26 +4,26 @@
       <link rel="stylesheet" href="style.css" />
       <title>Garden</title>
     </head>
-    <body class="body">
-      <header>
+    <body id="body">
+      <header id="header">
         <img 
           class="logo"
           src="C:/Users/phill/Pictures/website/gardenlogo.png"
           alt="Garden Logo"  
           />
-        <nav>
+        <nav id="nav">
           <ul class="nav_links">
             <li><a href="#">About</a></li>
             <li><a href="#">Guide</a></li>
             <li><a href="#">Blog</a></li>
           </ul>
         </nav>
-          <section id="cta">
+          <div id="cta">
             <a href="#"><button>Log In</button></a>
-          </section> 
-          <section id="cta1">
+          </div> 
+          <div id="cta1">
             <a href="#"><button>Sign Up</button></a>
-          </section> 
+          </div>
       </header>
         <div class="full_image">
           <img id="header_img1"
@@ -31,9 +31,8 @@
             alt="Cultivate Your Garden"
           />
         </div> 
-        <p>l</p>
       <section id="content">
-        <div class="content"> 
+        <figure class="content"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon5.png"
             alt="Structure"
@@ -43,8 +42,8 @@
             <h1>Structure</h1>
               <p>Give your life structure by designing a system to create more order and harmony in your life.</p>
           </figcaption>
-        </div>
-        <div class="content"> 
+        </figure>
+        <figure class="content"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon4.png"
             alt="Balance"
@@ -54,8 +53,8 @@
             <h1>Balance</h1>
               <p>Balance your work, school and home life with a set of tools you'll customize to meet your needs.</p>
           </figcaption>
-        </div>
-        <div class="content"> 
+        </figure>
+        <figure class="content"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon3.png"
             alt="Create"
@@ -65,10 +64,10 @@
             <h1>Create</h1>
               <p>Create custom dashboards to organize every aspect of your life from personal projects to fitness and more.</p>
           </figcaption>
-        </div>
+        </figure>
       </section>
       <section id="content1">
-        <div class="content1"> 
+        <figure class="content1"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon2.png"
             alt="Custom"
@@ -78,8 +77,8 @@
             <h1>Custom</h1>
               <p>Customize your dashboards with templates for task managers, daily schedules, meal plans, fitness routines and more!</p>
           </figcaption>
-        </div>
-        <div class="content1"> 
+        </figure>
+        <figure class="content1"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon1.png"
             alt="Balance"
@@ -89,8 +88,8 @@
             <h1>Balance</h1>
               <p>Balance your work, school and home life with a set of tools you'll customize to meet your needs.</p>
           </figcaption>
-        </div>
-        <div class="content1"> 
+        </figure>
+        <figure class="content1"> 
           <img
             src="C:/Users/phill/Pictures/website/copyicon.png"
             alt="Organize"
@@ -100,9 +99,10 @@
             <h1>Organize</h1>
               <p>Organize your life's information by creating custom dashboards with notebooks, documents and photos.</p>
           </figcaption>
-        </div>
+        </figure>
       </section>
       <section id="content2">
+        <h1 id="headline">Make More Time For What You Love</h1>
         <div>
           <img
             src="C:/Users/phill/Pictures/website/landingcontent.png"
@@ -132,8 +132,25 @@
           />
         </div>
       </section>
-      
-        
+      <section id="createuser">
+        <h1>Live More</h1>
+          <h2>Try it, it's free.</h2>
+        <form action="#" method="post">
+            <div class="login">
+              <input type="email" placeholder="Enter Email" name="username" required>
+            </div>
+            <div class="password">  
+              <input type="password" placeholder="Create Password" name="password" required>
+            </div>
+            <div class="submit">
+              <button type="submit">Join</button>
+            </div>
+        </form>
+      </section>
       <script src="script.js"></script>
   </body>
-</html
+  <footer>
+    <script>
+    </script>
+  </footer>
+</html>

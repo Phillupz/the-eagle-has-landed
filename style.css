@@ -36,6 +36,7 @@ nav {
   padding-top: 8px;
   list-style: none;
   margin-right: auto;
+  width: 100%;
 }
 
 .nav_links li {
@@ -77,7 +78,7 @@ button:hover {
   padding-left: 10px;
 }
 
-.body {
+#body {
   max-width:max-content;
   margin: 0 auto;
 }
@@ -95,9 +96,19 @@ button:hover {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content2 h1 {
+  box-sizing:content-box;
+  font-family: "Montesterrat", sans-serif;
+  color: #00390F;
+  font-weight: 100;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 80px;
 }
 
 .content, .content1 {
@@ -114,7 +125,7 @@ button:hover {
   font-family: "Montesterrat", sans-serif;
 }
 
-.content p, .content1 p {
+.content p, .content1 p  {
   color: #00390F;
   margin: 20px 50px;
   text-align: center;
@@ -123,7 +134,7 @@ button:hover {
 }
 
 .content1 {
- padding-bottom: 60px;
+ padding-bottom: 40px;
 }
 
 .gallery { 
@@ -132,10 +143,61 @@ button:hover {
 }
 
 #content2 {
-  box-sizing:border-box;
-  display: inline block; 
   width: 100%;
   height: auto;
   float: left;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
+
+.login, .password, .submit {
+  float: left;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+}
+
+form {
+  text-align: center;
+}
+
+input[type=email], input[type=password] {
+  width: 375px;
+  height: 35px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #00390F;
+  font-size: 14px;
+  color:#00390F;
+  padding-left: 5px;
+  outline-style: none;
+}
+
+input[type=email], input[type=password] {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+#createuser h1, #createuser h2{
+  color: #00390F;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Montesterrat", sans-serif; 
+}
+
+#createuser h1{
+  font-size: 26px;
+}
+
+#createuser h2{
+  font-size: 20px;
+}
+
+#createuser h1, #createuser h2 {
+  padding-bottom: 35px;
+  
+}
+
+
+
+
